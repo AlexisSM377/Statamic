@@ -1,0 +1,15 @@
+title: Agenda
+template: agenda/index
+layout: default
+revisions: false
+route: '/agenda/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true

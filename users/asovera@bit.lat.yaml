@@ -1,0 +1,10 @@
+super: true
+name: Alexis
+id: 5779f912-8a47-4d42-91ea-0892badcd068
+password_hash: $2y$10$z8zY6gCS32uGCgog4tOX8eJ.Cd6EALEZxJajFbyYrsCW4iKre.8IS
+preferences:
+  collections:
+    pages:
+      after_save: create_another
+    agenda:
+      after_save: continue_editing

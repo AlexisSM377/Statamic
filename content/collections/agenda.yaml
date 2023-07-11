@@ -1,6 +1,6 @@
 title: Agenda
-template: agenda/index
-layout: default
+template: agenda/show
+layout: layout
 revisions: false
 route: '/agenda/{slug}'
 date: true
